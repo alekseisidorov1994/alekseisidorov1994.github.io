@@ -6,10 +6,10 @@
 * ### [Smart](https://alekseisidorov1994.github.io/landingPage/pagefms/src/)
 * ### [CabUber](https://alekseisidorov1994.github.io/landingPage/uberCab/src/)
 * ### [Pulsometr](https://alekseisidorov1994.github.io/landingPage/pulsometr/dist/)
-## js
+## JS
 * ### [Liner](https://alekseisidorov1994.github.io/canvasJs/liner/)
 * ### [SmoothScroll](https://alekseisidorov1994.github.io/JS/scrollAndMenu/src/)
 * ### [Simplethings](https://alekseisidorov1994.github.io/JS/yoga/)
 * ### [buget](https://alekseisidorov1994.github.io/JS/budgetApp/src/)
 ## HTML/CSS
-* ###[ButtonNeon](https://alekseisidorov1994.github.io/htmlCss/btn/)
+* ### [ButtonNeon](https://alekseisidorov1994.github.io/htmlCss/btn/)
