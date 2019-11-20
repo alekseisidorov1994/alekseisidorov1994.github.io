@@ -1,0 +1,77 @@
+.solve
+	height: 890px
+	padding: 79px 0 61px 0
+	background: url('../img/second.jpg') center center/cover no-repeat
+	&__box
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 0 auto
+		margin-top: 30px
+		margin-bottom: 40px
+	&__menu
+		display: flex
+		border: 1px solid $color-white
+		border-radius: 5px
+		padding: 0 32px
+	&__list
+		position: relative
+		transition: 1.5s all
+		&::after
+			content: ""
+			width: 1px
+			height: 49px
+			background-color: #ffffff
+			display: block
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			right: 0
+			transition: 1.5s all
+		&:last-child
+			&::after
+				content: ""
+				display: none
+		
+			
+	&__link
+		color: $color-white
+		padding: 25px
+		display: block
+		&:hover
+			color: $color-white
+			text-decoration: none
+		
+	&__slider
+		width: 950px
+		position: relative
+		height: 560px
+		margin: 0 auto
+		background: url(../img/macbookfull.png) center center/100% no-repeat
+		&::after
+			content: ""
+			display: block
+			position: absolute
+			background: url(../icons/arrow_left.png)
+			width: 18px
+			height: 60px
+			left: -65px
+			top: 50%
+			transform: translateY(-50%)
+			cursor: pointer
+		&::before
+			content: ""
+			display: block
+			position: absolute
+			background: url(../icons/arrow_right.png)
+			width: 18px
+			height: 60px
+			right: -65px
+			top: 50%
+			transform: translateY(-50%)
+			cursor: pointer
+			
+
+			
+		
+	   
