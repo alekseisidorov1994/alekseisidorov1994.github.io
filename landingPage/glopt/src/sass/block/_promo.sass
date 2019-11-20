@@ -1,0 +1,76 @@
+.promo
+    min-height: 680px
+    padding: 23px 0 82px 0
+    background: url("../img/s-f.jpg") center center/cover no-repeat
+    &__text
+        margin-top: 9px
+        text-align: center
+        color: $white-color
+        font-size: 24px
+        font-weight: 300
+        line-height: 1
+    &__title
+        color: $orange-color
+        font-size: 58px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin-top: 26px
+        line-height: 1
+    &__title-sub
+        color: $white-color
+        font-size: 34px
+        font-weight: 400
+        text-transform: uppercase
+        text-align: center
+        margin-top: 9px
+    &__line
+        margin: 0 auto
+        margin-top: 38px
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        opacity: 0.8
+        hr
+            width: 33%
+            height: 2px
+            display: block
+            border: none
+            background-color: $white-color
+    &__point
+        margin: 0 12px
+        width: 8px
+        height: 8px
+        border-radius: 100%
+        background-color: $white-color
+        display: block
+    &__wrapper
+        margin-top: 27px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__items //выравнивание иконки из-за разных размеров (косяк дизайнера)
+        margin: 0 14px
+        &:nth-child(1)
+            .promo__img
+                margin-bottom: 10px
+            img
+                margin-top: 5px 
+    &__img
+       height: 63px
+       margin-bottom: 16px
+       img
+           display: block
+           margin: 0 auto
+           max-width: 100%
+          
+
+
+    &__descr
+        width: 262px
+        height: 59px
+        color: $white-color
+        font-size: 16px
+        font-weight: 300
+        text-align: center

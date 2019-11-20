@@ -1,0 +1,46 @@
+.button
+    width: 160px
+    height: 45px
+    background-color: #ec644b
+    border-radius: 30px
+    border: none
+    color: $white-color
+    font-size: 12px
+    font-weight: 400
+    text-transform: uppercase
+    outline: none
+    &__promo
+        width: 230px
+        height: 57px
+        margin: 0 auto
+        display: block
+        margin-top: 40px
+    &_price
+        margin: 0 auto
+        display: block
+        margin-bottom: 25px
+    &_form
+        position: absolute
+        bottom: -13%
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 999
+        &::after
+            content: ""
+            width: 14px
+            height: 100%
+            position: absolute
+            background-color: #fff
+            left: 100%
+            z-index: -1
+        &::before
+            content: ""
+            width: 14px
+            height: 100%
+            position: absolute
+            background-color: #fff
+            z-index: -1
+            left: -14px
+    &_questions
+        margin: 0 auto
+        display: block

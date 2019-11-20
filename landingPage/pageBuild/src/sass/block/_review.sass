@@ -1,0 +1,95 @@
+.review
+    padding: 120px 0 151px 0
+    background: $color-white
+    position: relative
+    &__main
+        margin-top: 100px
+    &__filling
+        user-select: none
+        width: 100%
+        padding: 60px
+        height: 550px
+        box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11)
+        background-color: #ffffff
+        position: relative
+    &__btn-left
+        user-select: none   
+        cursor: pointer
+        width: 70px
+        height: 60px
+        background: $color-green
+        position: absolute
+        display: flex
+        align-items: center
+        justify-content: center
+        left: -70px
+        top: 50%
+        transform: translateY(-50%)
+        img
+            width: 13px
+            height: 20px
+    &__btn-right
+        user-select: none
+        cursor: pointer
+        width: 70px
+        height: 60px
+        background: $color-green
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+        right: -70px
+        top: 50%
+        transform: translateY(-50%)
+        img
+            width: 13px
+            height: 20px
+    &__wrap
+        display: flex
+        flex-direction: column
+    &__slider
+        height: 100%
+    &__descr
+        max-height: 168px
+        height: auto
+        color: $color-title
+        text-decoration: none
+        font-size: 16px
+        margin: 0
+    &__list
+        text-decoration: none
+        list-style: none
+        line-height: 2
+    &__footer
+        margin-top: 110px
+        position: relative
+    &__img
+        max-width: 28%
+        position: absolute
+        bottom: 0
+        left: -4%
+        img
+            width: 100%
+    &__text-contact
+        color: $color-title
+        font-size: 22px
+        font-weight: 700
+        text-align: center
+    &__form
+        width: 600px
+        margin: 0 auto
+        height: 100%
+        padding: 0
+        margin-top: 47px
+        text-align: center
+        background: rgba(0,0,0,0)
+    &__input
+        display: inline-block
+        margin: 0 15px
+    &__label
+        left: 73%
+        bottom: 105%
+        &:nth-child(1)
+            left: 27%
+    &__button
+        margin-top: 31px

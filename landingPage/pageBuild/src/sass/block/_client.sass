@@ -1,0 +1,36 @@
+.client
+    &__info 
+        margin-top: 40px
+        display: flex
+        align-items: center
+    &__img
+        margin-right: 20px
+        width: 100%
+        max-width: 50px
+        height: 100%
+        max-width: 50px
+    &__descr
+        color: $color-title
+        font-size: 14px
+        font-weight: 400
+    &__descr-name
+        font-weight: 700
+        font-size: 16px
+    &__feed
+        margin-top: 18px
+        padding: 20px
+        display: block
+        border: 2px solid #49bf15
+        position: relative
+        &::after
+            content: ''
+            width: 20px
+            height: 20px
+            border-top: 3px solid #49bf15
+            border-left: 2px solid #49bf15
+            background-color: #fff
+            transform: skewX(51deg) rotate(43deg) translateY(2px)
+            position: absolute
+            top: -13px
+            left: 32px
+        

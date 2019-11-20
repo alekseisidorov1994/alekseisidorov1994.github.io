@@ -1,0 +1,66 @@
+.popup
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background-color: $color-white
+    color: $color-black
+    position: absolute
+    text-align: center
+    display: block
+    &__close
+        width: 20px
+        height: 20px
+        display: block
+        position: absolute
+        top: -5%
+        left: 110%
+        cursor: pointer
+        &::before
+            content: ""
+            position: absolute
+            display: block
+            width: 20px
+            height: 2px
+            background-color: #ffffff
+            bottom: 50%
+            transform: translate(0%) rotate(45deg)
+        &::after
+            content: ""
+            position: absolute
+            transform: translate(0%) rotate(-45deg)
+            display: block
+            width: 20px
+            height: 2px
+            bottom: 50%
+            background-color: #fff
+.thanks
+    width: 355px
+    height: 191px
+    padding: 55px
+    font-size: 18px
+    font-weight: 700
+    display: none
+.consultate
+    display: none
+    height: auto
+    &__header
+        margin-top: 34px
+        font-size: 18px
+        font-weight: 700
+        line-height: 1.5
+    &__header-sub
+        display: block
+        font-size: 18px
+        font-weight: 400
+        width: 200px
+        margin: 0 auto
+    &__form
+        height: auto
+        padding: 20px 40px 20px 40px
+        
+
+
+    
+            
+            
+    

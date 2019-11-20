@@ -1,0 +1,22 @@
+@mixin tdn()
+    a
+        text-decoration: none
+        &:hover,&:focus,&:active
+            text-decoration: none
+    button, input, a, textarea
+        &:focus
+            outline: none
+
+@mixin flex_center()
+    display: flex
+    justify-content: center
+    align-items: center
+@mixin flex_around()
+    display: flex
+    justify-content: space-around
+    align-items: center
+@mixin flex_between()
+    display: flex
+    justify-content: space-between
+    align-items: center
+    

@@ -1,0 +1,42 @@
+.reviews
+    padding: 51px 0 65px 0
+    position: relative
+    &__content
+        display: block
+        position: relative
+        text-align: center
+        width: 601px
+        margin: 0 auto
+        &::after
+            content: ''
+            width: 14px
+            display: block
+            height: 47px
+            background: url('../img/arrow-left.png') center center/cover no-repeat
+            position: absolute
+            left: 28%
+            top: 25%
+            transform: translateY(-50%)
+        &::before
+            content: ''
+            width: 14px
+            display: block
+            height: 47px
+            background: url('../img/arrow-right.png') center center/cover no-repeat
+            position: absolute
+            right: 28%
+            top: 25%
+            transform: translateY(-50%)
+        
+    &__img
+        margin-bottom: 19px
+    &__text
+        color: $subtext-color
+        font-size: 14px
+        font-weight: 300
+        line-height: 1.5
+        span
+            font-size: 18px
+            font-weight: 700
+            line-height: 1.8
+

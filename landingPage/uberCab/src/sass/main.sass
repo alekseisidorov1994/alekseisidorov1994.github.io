@@ -1,0 +1,621 @@
+@import "variables"
+@import "media" 
+*
+	box-sizing: border-box
+	padding: 0
+	margin: 0
+	font-family: $font
+	text-decoration: none
+
+
+.btn
+	width: 172px
+	height: 46px
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.12)
+	border: 1px solid rgba(0, 0, 0, 0.07)
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	display: block
+	border-radius: 4px
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+	color: $white_color
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	text-transform: uppercase
+	transition: 1s all
+	&:hover
+		cursor: pointer
+		color: $black_color
+		// color:	#000
+		background-image: none
+header
+	
+	
+	.head_menu
+		background-color: #212121
+		height: 67px
+		position: fixed
+		width: 100%
+		z-index: 22
+		.phone-mobile
+			display: none
+		
+					
+
+		&_nav
+			width: 1140px
+			display: block
+			margin: 0 auto
+			// height: 67px
+			height: 100%
+		&_top
+			width: 100%
+			height: inherit
+			display: flex
+			justify-content: space-around
+			align-items: center
+		&_list
+			font-size: 15px
+			font-weight: 300
+			list-style-type: none
+			&:nth-child(1n)
+				&:after
+					content: ""
+					border-right: 2px dotted black
+					padding-right: 33px
+			&:last-child
+				&:after
+					content: ""
+					border: none		
+			a
+				color: $white_color
+				text-decoration: none
+				
+	.head_menu_bottom
+		background-color: rgba(0,0,0,0.6)
+		padding-top: 23px
+		height: 84px
+		position: absolute
+		width: 100%
+		margin-top: 67px
+		
+		&_center
+			width: 1140px
+			margin: 0 auto
+			display: flex
+			height: 100%
+
+		&_partone
+		
+			margin-left: 80px
+			margin-right: 300px
+		&_parttwo
+			margin-right: 33px
+		
+			&_text
+				color: $white_color
+				font-family: Roboto
+				font-size: 12px
+				font-weight: 300
+				padding-bottom: 8px
+			&_phone
+				color:  $white_color
+				font-family: Roboto
+				font-size: 22px
+				font-weight: 400
+				text-transform: uppercase
+				
+				a
+					color:  $white_color
+					text-decoration: none
+			
+		&_descr
+			opacity: 0.5
+			color: $white_color
+			font-size: 13px
+			font-weight: 400
+		&_btn
+			width: 172px
+			height: 46px
+			box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.12)
+			border: 1px solid rgba(0, 0, 0, 0.07)
+			background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+			display: block
+			border-radius: 4px
+			text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+			color: $white_color
+			font-family: Roboto
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+	
+// beginning the section_main_center
+
+.section_main
+	padding-top:  151px
+	
+	margin: 0 auto
+	// height: 800px
+	width: 100%
+	background: url(../img/sectionFirst.jpg)	center center/cover no-repeat			
+	
+	
+	&_center
+		width: 1140px
+		display: flex
+		margin: 0 auto
+		height: 100%
+		padding: 67px 0 135px 0
+		&_text
+			text-align: center
+			color: $white_color
+			margin: 0 auto
+			&_up
+				line-height: 1.5
+				font-size: 36px
+			&_sub
+				padding-bottom: 23px
+			&_common
+				width: 955px
+				height: 161px
+				font-size: 18px
+				font-weight: 400
+			&_btn
+				width: 259px
+				height: 63px
+				margin: 0 auto
+				margin-top: 120px
+				display: block
+.section_causes
+	background-color: #ffffff
+	padding-top: 71px
+	&_center
+		width: 1140px
+		margin: 0 auto
+	&_btn
+		display: block
+		margin: 0 auto
+		text-align: center
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		width: 112px
+		height: 24px
+		background-image: none
+		background-color: $black_color
+	&_descr
+		color: #222222
+		font-size: 25px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		margin-top: 36px
+	&_wrapped
+		margin-top: 40px
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		align-items: flex-start
+		padding-left: 5%
+		&_content
+			display: flex
+			width: 50%
+			justify-content: space-around
+			
+				
+			&_img
+				background-color: #1eacc7
+				width: 113px
+				height: 113px
+				border-radius: 100%
+			&_logo
+				
+				display: block
+				margin: auto
+				margin-top: 50%
+				transform: translateY(-50%)
+				
+				flex: none
+						
+			&_specification
+				width: 341px
+				height: 141px
+				margin-bottom: 50px
+				&_uptext
+					color: #1eacc7
+					font-size: 17px
+					font-weight: 400
+					padding-bottom: 10px
+				&_downtext
+					color: $text_color
+					font-size: 15px
+					font-weight: 300
+.section_mobileapp
+	padding: 56px 0 80px 0
+	// height: 864px
+	background: url(../img/backImg.jpg) center center/cover no-repeat
+	&_center
+		width: 1140px
+		margin: 0 auto
+	&_descrup
+		text-align: center
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		margin-top: 36px
+	&_descrdown
+		color: #222222
+		text-align: center
+		font-size: 17px
+		font-weight: 400
+		line-height: 21px
+		margin-top: 19px
+	&_wrapped
+		display: flex
+		margin-top: 32px
+		flex-wrap: wrap
+		justify-content: space-around
+		
+		&_box
+			width: 320px
+			height: 280px
+			// margin-right: 50px
+			margin-bottom: 19px
+			position: relative
+			&_img
+				display: flex
+				justify-content: center
+				transition: 1s all
+				&:before
+					content: ""
+					width: 100%
+					height: 100%
+					background-color: rgba(0,0,0,0.6)
+					position: absolute
+					transition: 1s all
+					
+			&_text
+				z-index: 12
+				display: block
+				position: relative
+				top: -60%
+				text-align: center
+				transform: translateY(-50%)
+				// width: 267px
+				height: 53px
+				color: #ffffff
+				font-size: 24px
+				font-weight: 400
+				line-height: 31px
+				text-transform: uppercase
+			&_plus
+				width: 26px
+				height: 26px
+				background-color: #000000
+				border-radius: 100%
+				position: absolute
+				display: block
+				top: 219px
+				left: 50%
+				transform: translateX(-50%)
+				transition: 1.5s all
+				&:after
+					content: ""
+					width: 14px
+					height: 2px
+					background-color: red
+					position: absolute
+					z-index: 11
+					left: 50%
+					top: 50%
+					transform: translate(-50%,-50%)
+				&:before
+					content: ""
+					width: 2px
+					height: 14px
+					background-color: red
+					position: absolute
+					z-index: 11
+					left: 50%
+					top: 50%
+					transform: translate(-50%,-50%)
+.section_choice
+	// height: 900px
+	background: url(../img/bgi.jpg)	center center/cover no-repeat
+	padding: 57px 0 138px 0
+	&_center
+		width: 1140px
+		margin: 0 auto
+	&_btn
+		width: 112px
+		height: 24px
+		background-image: none
+		background-color: #ffffff
+		color: #070716
+		font-size: 11px
+		font-weight: 100
+		text-transform: uppercase
+		margin: 0 auto
+		display: block	
+	&_uptext
+		color: $white_color
+		font-size: 30px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		margin-top: 32px
+	&_subtext
+		color: $white_color
+		font-size: 17px
+		font-weight: 400
+		text-align: center
+		margin-top: 19px
+	&_img
+		margin-top: 56px
+		img
+			width: 100%
+	&_specification
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		text-align: center
+		display: block
+		width: 297px
+		height: 42px
+		margin: 0 auto
+.section_condition
+	padding: 76px 0 84px 0
+	// height: 800px
+	&_center
+		width: 1140px
+		margin: 0 auto
+	&_btn
+		color: #ffffff
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		width: 112px
+		height: 24px
+		background-color: #000000
+		background-image: none
+		border: none
+		border-radius: 4px
+		display: block
+		margin: 0 auto
+	&_uptext
+		margin: 33px 0
+		color: #222222
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+	&_wrapped
+		display: flex
+		flex-wrap: wrap
+		
+		justify-content: center
+		&_content
+			width: 444px
+			margin-bottom: 62px
+			margin-right: 100px
+			
+			&:nth-child(2n)
+				margin-right: 0px
+			&_descr
+				color: #1ca8c3
+				font-size: 22px
+				font-weight: 400
+				&_sub
+					color: #1ca8c3
+					font-size: 22px
+					font-weight: 300
+			&_nav
+				list-style-type: none
+				margin-top: 10px
+				line-height: 1.4
+				margin-left: 50px
+				&_list
+					
+					font-size: 17px
+					font-weight: 300
+					position: relative
+					margin-bottom: 8px
+					&:before
+						content: ""
+						background: url(../img/choice.png) no-repeat
+						width: 21px
+						height: 21px
+						display: block
+						position: absolute
+						left: -32px
+			&:nth-child(3)
+				color: red
+			&:nth-child(4)
+				color: red
+			.list_red
+				&:before
+					content: ""
+					background: url(../img/choice_red.png) no-repeat
+					width: 21px
+					height: 21px
+					display: block
+					position: absolute
+					left: -32px			
+.section_map
+	height: 714px
+	padding: 49px 0
+	background: url(../img/secLast.jpg) center center/cover no-repeat	
+	&_center
+		width: 1140px
+		margin: 0 auto
+	&_btn
+		width: 76px
+		height: 24px
+		background-color: #ffffff
+		color: #070716
+		font-size: 11px
+		font-weight: 100
+		text-transform: uppercase
+		background-image: none
+		margin: 0 auto
+	&_uptext
+		color: #ffffff
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		margin-top: 32px
+		text-align: center
+	&_downtext
+		color: #ffffff
+		font-size: 17px
+		font-weight: 400
+		text-align: center
+	&_link
+		margin-top: 486px
+		text-align: center
+		color: #1fbad6
+		font-size: 15px
+		font-weight: 400
+		text-transform: uppercase
+		a
+			color: #1fbad6
+			text-decoration: none
+.footer
+	height: 200px
+	padding-top: 14px
+	&_line
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto	
+	&_wrapped
+		display: flex
+		justify-content: space-around
+		align-items: flex-start
+		width: 100%
+		cursor: default
+		margin-top: 30px
+		&_content
+			width: 33%
+			display: flex
+			justify-content: center
+			
+			.text
+				text-align: center
+				text-transform: uppercase
+				&_one
+					font-size: 15px
+					margin-bottom: 15px
+					margin-left: 17px
+					
+					&_link
+						color: #202020
+						margin-right: 40px
+						&:last-child
+							margin-right: 0px
+				&_two
+					font-size: 11px
+					margin-bottom: 15px
+					&_link
+						color: #999999
+						margin-right: 24px
+						&:last-child
+							margin-right: 0px
+				&_three
+					font-size: 15px
+					
+					&_link
+						color: #1fbad6
+					
+
+			.social
+				display: flex
+				justify-content: flex-start
+						
+				&_icon
+					width: 35px
+					height: 35px
+					background: red
+					border-radius: 100%
+					margin-right: 10px
+					color: $white_color
+					position: relative
+					cursor: pointer
+					transition: 0.4s all
+					i
+						
+						position: absolute
+						top: 50%
+						right: 50%
+						transform: translate(50%,-50%)
+					&:hover
+						color: black
+						background: #2196f3
+						box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3
+							
+			.buy
+				display: flex
+				justify-content: flex-start
+				cursor: pointer
+				&_icon
+					width: 35px
+					height: 35px
+					background: red
+					border-radius: 100%
+					margin-right: 10px
+					position: relative
+					color: $white_color
+					transition: 0.4s all
+					display: flex
+					justify-content: center	
+					align-items: center
+					i
+					&:hover
+						color: black
+						background: #2196f3
+						box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3
+						
+						
+				
+				
+	
+		
+		
+			
+
+	
+
+						
+						
+						
+
+
+				
+		
+
+
+		
+
+
+	
+	
+
+
+		
+
+	
+		
+				
+			
+			
+			
+
+			
+		   
+		
+
+			
+			
+		
+
+
