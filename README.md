@@ -1,6 +1,6 @@
-# [Aleksei Sidorov](alekseisidorov1994.github.io)
+# Aleksei Sidorov
 
-## Langin Pages
+## *Langin Pages
 ### [Delivery](https://alekseisidorov1994.github.io/landingPage/glopt/src/)
 ### [Repairs](https://alekseisidorov1994.github.io/landingPage/pageBuild/src/)
 ### [Smart](https://alekseisidorov1994.github.io/landingPage/pagefms/src/)
