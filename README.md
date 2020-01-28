@@ -14,5 +14,5 @@
 ## HTML/CSS
 * ### [ButtonNeon](https://alekseisidorov1994.github.io/htmlCss/btn/)
 ## APP/js
-[instaClone](https://alekseisidorov1994.github.io/dist/)
+[instaClone](http://176.99.12.17/wall)
 
