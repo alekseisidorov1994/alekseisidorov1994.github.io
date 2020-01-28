@@ -18,3 +18,4 @@
 ## Info reference
 * ### [Start](https://github.com/alekseisidorov1994/Lesson1/blob/master/README.md)
 * ### [__proto__](https://github.com/alekseisidorov1994/lesson2)
+* ### [Pattern Creator](https://github.com/alekseisidorov1994/Lesson3) 
