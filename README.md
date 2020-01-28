@@ -18,10 +18,12 @@
 * ### [buget](https://alekseisidorov1994.github.io/JS/budgetApp/src/)
 
 ## Vue.js + node.js+ KOA(log:test1, pas: test1)
-* ### [instaClone](http://176.99.12.17/wall) / [посмотреть код](https://github.com/alekseisidorov1994/vue-serve)  
+* ### [instaClone](http://176.99.12.17/wall) / [посмотреть код](https://github.com/alekseisidorov1994/vue-serve)
+//добавить guard
 
 ## Angular8  
 * ### [Angular-blog+ admin panel('/admin')](https://angular-blog-ed2e5.firebaseapp.com)/[посмотреть код](https://github.com/alekseisidorov1994/allAboutAngular)
+//добавить сервис для лоудера
 
 ## Info reference
 * ### [Start](https://github.com/alekseisidorov1994/Lesson1/blob/master/README.md)
