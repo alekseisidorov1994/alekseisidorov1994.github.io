@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 	// timer MY CODE >>>>>>>>><<<<<<!!!!!!!!!!!!!!!!
 	let runStop = setTimeout(function getTimeRemainig() {
-		let timedead = '2019-09-27';
+		let timedead = '2020-02-05';
 		let time = new Date();
 		let timeLocal = time.getHours();
 		let timeUTC = time.getUTCHours();
