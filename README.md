@@ -22,7 +22,7 @@
 //добавить guard
 
 ## Angular8  
-* ### [Angular-blog+ admin panel('/admin')](https://angular-blog-ed2e5.firebaseapp.com)/[посмотреть код](https://github.com/alekseisidorov1994/allAboutAngular)  
+* ### [Angular-blog+ admin panel('/admin')](https://angular-blog-ed2e5.firebaseapp.com/admin)/[посмотреть код](https://github.com/alekseisidorov1994/allAboutAngular)  
 (вход в админ панель log:agost42@mail.ru pas: 123456)
 //добавить loader
 
