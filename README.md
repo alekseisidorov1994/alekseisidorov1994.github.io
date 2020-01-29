@@ -23,7 +23,7 @@
 
 ## Angular8  
 * ### [Angular-blog+ admin panel('/admin')](https://angular-blog-ed2e5.firebaseapp.com)/[посмотреть код](https://github.com/alekseisidorov1994/allAboutAngular)
-//добавить сервис для лоудера
+//добавить loader
 
 ## Info reference
 * ### [Start](https://github.com/alekseisidorov1994/Lesson1/blob/master/README.md)
