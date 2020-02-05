@@ -17,13 +17,13 @@
 * ### [Simplethings](https://alekseisidorov1994.github.io/JS/yoga/)
 * ### [buget](https://alekseisidorov1994.github.io/JS/budgetApp/src/)
 
-## Vue.js + node.js+ KOA(log:test1, pas: test1)
+## Vue.js + node.js+ KOA
 * ### [instaClone](http://176.99.12.17/wall) / [посмотреть код](https://github.com/alekseisidorov1994/vue-serve)
 //добавить guard
 
 ## Angular8  
 * ### [Angular-blog+ admin panel('/admin')](https://angular-blog-ed2e5.firebaseapp.com/admin)/[посмотреть код](https://github.com/alekseisidorov1994/allAboutAngular)  
-(вход в админ панель log:agost42@mail.ru pas: 123456)
+
 //добавить loader
 
 ## Info reference
